@@ -8,6 +8,8 @@ PROFILE=/dev/null bash -c 'curl -fsSL https://get.pnpm.io/install.sh | env PNPM_
 PROFILE=/dev/null bash -c 'curl -fsSL https://bun.sh/install | bash'
 PROFILE=/dev/null bash -c 'curl -fsSL https://deno.land/install.sh | sh'
 
+sudo dnf -y install gh
+
 sudo dnf -y install https://rpms.remirepo.net/fedora/remi-release-40.rpm
 sudo dnf -y install php php-mysqlnd
 
