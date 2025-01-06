@@ -6,30 +6,6 @@ prompt adam1
 
 setopt histignorealldups sharehistory
 
-# Use emacs keybindings even if our EDITOR is set to vi
-bindkey -e
-
-# Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
-HISTSIZE=1000
-SAVEHIST=1000
-HISTFILE=~/.zsh_history
-
-function next-laravel() {
-  ~/next-laravel.sh
-}
-
-function vapor() {
-  php /home/sind/.config/composer/vendor/bin/vapor "$@"
-}
-
-function ar() {
-  php artisan "$@"
-}
-
-function code_dir() {
-  cd /home/sind/codigos/$1
-}
-
 # Use modern completion system
 autoload -Uz compinit
 compinit
