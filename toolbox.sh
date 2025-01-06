@@ -17,6 +17,5 @@ cp ./.zshrc $HOME
 oh-my-posh init zsh --config /home/kaleb/.cache/oh-my-posh/themes/catppuccin_mocha.omp.json | tee -a $HOME/.zshrc
 
 echo -e "\n\nif [ -e "/usr/bin/zsh" ]; then exec zsh; fi" >> ~/.bashrc
-alias code="flatpak-spawn --host flatpak run com.visualstudio.code"
 
 exec zsh
