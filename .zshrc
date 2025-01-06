@@ -43,6 +43,7 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # aliases
 alias code="flatpak-spawn --host flatpak run com.visualstudio.code"
 alias podman="podman --remote"
+alias ar="php artisan"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
