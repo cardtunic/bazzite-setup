@@ -49,6 +49,6 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # deno
-. "~/.deno/env"
+. "$HOME/.deno/env"
 
 # oh-my-posh
